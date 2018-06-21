@@ -9,11 +9,10 @@
 			"include": "#parameters"
 		},
 		{
-			"include": "#strings"
+			"include": "#constants"
 		},
 		{
-			"name": "constant.flexlm-lic",
-			"match": "\\b(permanent)\\b"
+			"include": "#strings"
 		}
 	],
 	"repository": {
@@ -27,6 +26,12 @@
 			"patterns": [{
 				"name": "variable.parameter.flexlm-lic",
 				"match": "\\b(BORROW|DUP_GROUP|FLOAT_OK|HOST_BASED|ISSUED|ISSUER|LINGER|NOTICE|OVERDRAFT|PLATFORMS|SN|START|SUITE_DUP_GROUP|SUPERSEDE|TS_OK|USER_BASED|VENDOR_STRING|HOSTID|SIGN)\\b"
+			}]
+		},
+		"constants": {
+			"patterns": [{
+				"name": "constant.language.flexlm-lic",
+				"match": "\\b(permanent)\\b"
 			}]
 		},
 		"strings": {
