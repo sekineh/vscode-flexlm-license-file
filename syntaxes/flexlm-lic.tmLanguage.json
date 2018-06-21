@@ -6,14 +6,27 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#parameters"
+		},
+		{
 			"include": "#strings"
+		},
+		{
+			"name": "constant.flexlm-lic",
+			"match": "\\b(permanent)\\b"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.flexlm-lic",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(SERVER|VENDOR|DAEMON|USE_SERVER|FEATURE|INCREMENT|UPGRADE)\\b"
+			}]
+		},
+		"parameters": {
+			"patterns": [{
+				"name": "variable.parameter.flexlm-lic",
+				"match": "\\b(BORROW|DUP_GROUP|FLOAT_OK|HOST_BASED|ISSUED|ISSUER|LINGER|NOTICE|OVERDRAFT|PLATFORMS|SN|START|SUITE_DUP_GROUP|SUPERSEDE|TS_OK|USER_BASED|VENDOR_STRING|HOSTID|SIGN)\\b"
 			}]
 		},
 		"strings": {
