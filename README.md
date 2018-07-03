@@ -1,6 +1,6 @@
-# flexlm-license-file README
+# flexlm-license-file extension
 
-This is the README for your extension "flexlm-license-file". 
+Simple mode for FlexLM license files (.lic)
 
 ## Features
 
