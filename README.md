@@ -21,10 +21,6 @@ None
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 0.0.1
 
-Initial release of the extension
-
-**Enjoy!**
+- Initial release of the extension
