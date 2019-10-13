@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#comment"
+		},
+		{
 			"include": "#parameters"
 		},
 		{
@@ -20,6 +23,12 @@
 			"patterns": [{
 				"name": "keyword.control.flexlm-lic",
 				"match": "\\b(SERVER|VENDOR|DAEMON|USE_SERVER|FEATURE|INCREMENT|UPGRADE)\\b"
+			}]
+		},
+		"comment": {
+			"patterns": [{
+				"name": "comment.line.number-sign.flexlm-lic",
+				"match": "\\s*((#).*)$"
 			}]
 		},
 		"parameters": {
