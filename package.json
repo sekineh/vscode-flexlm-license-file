@@ -2,7 +2,7 @@
     "name": "flexlm-license-file",
     "displayName": "flexlm license file",
     "description": "Syntax highlight for FlexLM license file",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "sekineh",
     "engines": {
         "vscode": "^1.24.0"
