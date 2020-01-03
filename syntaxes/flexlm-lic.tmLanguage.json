@@ -22,7 +22,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.flexlm-lic",
-				"match": "\\b(SERVER|VENDOR|DAEMON|USE_SERVER|FEATURE|INCREMENT|UPGRADE)\\b"
+				"match": "\\b(SERVER|VENDOR|DAEMON|USE_SERVER|FEATURE|INCREMENT|UPGRADE|PACKAGE)\\b"
 			}]
 		},
 		"comment": {
@@ -34,7 +34,7 @@
 		"parameters": {
 			"patterns": [{
 				"name": "variable.parameter.flexlm-lic",
-				"match": "\\b(BORROW|DUP_GROUP|FLOAT_OK|HOST_BASED|ISSUED|ISSUER|LINGER|NOTICE|OVERDRAFT|PLATFORMS|SN|START|SUITE_DUP_GROUP|SUPERSEDE|TS_OK|USER_BASED|VENDOR_STRING|HOSTID|SIGN)\\b"
+				"match": "\\b(BORROW|DUP_GROUP|FLOAT_OK|HOST_BASED|ISSUED|ISSUER|LINGER|NOTICE|OVERDRAFT|PLATFORMS|SN|START|SUITE_DUP_GROUP|SUPERSEDE|TS_OK|USER_BASED|VENDOR_STRING|HOSTID|SIGN|COMPONENTS)\\b"
 			}]
 		},
 		"constants": {
