@@ -40,7 +40,7 @@
 		"constants": {
 			"patterns": [{
 				"name": "constant.language.flexlm-lic",
-				"match": "\\b(permanent)\\b"
+				"match": "\\b(permanent|\\d{2}-\\w{3}-\\d{4})\\b"
 			}]
 		},
 		"strings": {
