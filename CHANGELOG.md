@@ -17,6 +17,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - line comment begin with # toggle and highlight contributed by @cjtheone
 - Now we proved to have enough users, bump to 0.1.0.
 
-## [0.0.1] - 
+## [0.0.1] - 2018-07-03
 
 - Initial release of the extension
