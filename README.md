@@ -21,13 +21,3 @@ None
 See
 https://github.com/sekineh/vscode-flexlm-license-file/issues
 
-## Release Notes
-
-### 0.1.0
-
-- line comment begin with # toggle and highlight contributed by @cjtheone
-- Now we proved to have enough users, bump to 0.1.0.
-
-### 0.0.1
-
-- Initial release of the extension

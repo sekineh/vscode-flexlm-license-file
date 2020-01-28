@@ -3,7 +3,7 @@ All notable changes to the "flexlm-license-file" extension will be documented in
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.2.0] - 2020-01-28
 
 ### Added
 
@@ -11,4 +11,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Date format regex to highlight license file dates as a constant
 
 ## [0.1.0] - 2019-10-16
-- Initial release
+
+### Added
+
+- line comment begin with # toggle and highlight contributed by @cjtheone
+- Now we proved to have enough users, bump to 0.1.0.
+
+## [0.0.1] - 
+
+- Initial release of the extension
