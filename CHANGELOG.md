@@ -5,6 +5,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Unrelreased
 
+## [0.3.0] - 2020-02-14
+
 ### Added
 
 - Highlight *feat_version* as constant number
