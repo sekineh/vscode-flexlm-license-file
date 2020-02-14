@@ -39,8 +39,14 @@
 		},
 		"constants": {
 			"patterns": [{
-				"name": "constant.language.flexlm-lic",
+				"name": "constant.language.exp_date",
 				"match": "\\b(permanent|\\d{1,2}-\\w{3}-\\d{4})\\b"
+			}, {
+				"name": "constant.numeric.feat_version",
+				"match": "\\b\\d+\\.\\d+\\b"
+			}, {
+				"name": "constant.numeric.count",
+				"match": "\\b(uncounted|\\d+)\\b"
 			}]
 		},
 		"strings": {

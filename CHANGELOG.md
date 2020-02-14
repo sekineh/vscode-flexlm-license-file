@@ -3,6 +3,13 @@ All notable changes to the "flexlm-license-file" extension will be documented in
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Unrelreased
+
+### Added
+
+- Highlight *feat_version* as constant number
+- Highlight `uncounted` and integer as constant number
+
 ## [0.2.0] - 2020-01-28
 
 ### Added
